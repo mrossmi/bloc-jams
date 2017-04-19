@@ -24,19 +24,19 @@ html {
  left: 2rem;
 }
 .container {
-    margin: 0 auto;
-    max-width: 64 rem;
-}
-
-/* medium and small screens (640px) */
-@media (min-width: 640px) {
-    html { font-size: 112%; }
-}
+     margin: 0 auto;
+     max-width: 64rem;
+ }
+ 
+ /* Medium screens (640px) */
+ @media (min-width: 640px) {
+     html { font-size: 112%; }
+ }
     .column {
-        float: left;
-        padding-left: 1rem;
-        padding-right: 1rem;
-}
+         float: left;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
  .column.full { width: 100%; }
      .column.two-thirds { width: 66.7%; }
      .column.half { width: 50%; }
@@ -44,10 +44,18 @@ html {
      .column.fourth { width: 25%; }
      .column.flow-opposite { float: right; }  
 
-/* large screens (1024px) */
-@media (min-width: 1024px) {
-    html { font-size: 120%; }
-}
+/* Medium and small screens (640px) */
+ @media (min-width: 640px) {
+     html { font-size: 112%; }
+
+     /* Style information will go here */
+ }
+ 
+ /* Large screens (1024px) */
+ @media (min-width: 1024px) {
+     html { font-size: 120%; }
+/* Style information will go here */
+ }
 .cleafix::before,
 
 .clearfix::after {
