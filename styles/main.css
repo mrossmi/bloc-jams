@@ -17,15 +17,25 @@ html {
 .navbar {
  position: relative;    
  padding: 0.5rem;
+<<<<<<< HEAD
  background-color: rgba(101,18,95, 0.5);
     /* #2 */
+=======
+ /*#1*/
+ background-color: rgba(101,18,95,0.5);
+    /*#2*/
+>>>>>>> assignment-6
  z-index: 1;
 }
 
 .navbar .logo {
  position: relative; /* positioning will be explained in a resource */
  left: 2rem;
+<<<<<<< HEAD
    cursor: pointer;  /* produces the finger-pointer icon when you hover over the logo */
+=======
+ cursor: pointer;  /* produces the finger-pointer icon when you hover over the logo */
+>>>>>>> assignment-6
  }
  
  .navbar .links-container {
@@ -55,26 +65,40 @@ html {
      /* #3 */
      text-decoration: none;
      cursor: pointer;
+<<<<<<< HEAD
      
  }
 
+=======
+ }
+>>>>>>> assignment-6
  
    /* #5 */
  .links-container .navbar-link:hover {
      color: rgb(233,50,117);
  }
+<<<<<<< HEAD
 .links-container .navbar: active {
     background-color: white;
 }
     
+=======
+
+>>>>>>> assignment-6
 .container {
      margin: 0 auto;
      max-width: 64rem;
  }
+<<<<<<< HEAD
 
 .container.narrow {
      max-width: 56rem;
  }
+=======
+.container.narrow {
+    max-width: 56rem;
+}
+>>>>>>> assignment-6
  
  /* Medium screens (640px) */
  @media (min-width: 640px) {
