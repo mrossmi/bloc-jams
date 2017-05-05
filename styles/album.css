@@ -1,5 +1,4 @@
-body.album {
-<<<<<<< HEAD
+ body.album {
      background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -35,7 +34,7 @@ body.album {
      font-size: 0.75rem;
  }
 
- .album-view-song-list {
+.album-view-song-list {
      width: 90%;
      margin: 1.5rem auto;
      font-weight: 300;
@@ -60,6 +59,10 @@ body.album {
  .song-item-duration {
      width: 5%;
  }
+ 
+ .song-item-duration {
+     width: 5%;
+ }
 @media (max-width: 640px) and (min-width: 320px) {
      .album-view-details {
          text-align: center;
@@ -79,7 +82,25 @@ body.album {
          margin: auto;
      }
  }
-=======
+@media (max-width: 640px) and (min-width: 320px) {
+     .album-view-details {
+         text-align: center;
+     }
+     
+     .album-view-title {
+         margin-top: 0;   
+     }
+ }
+ 
+ /* #3 */
+ @media (max-width: 1024px) and (min-width: 320px) {
+    .album-view-song-list {
+         position: relative;
+         top: 1rem;
+         width: 80%;
+         margin: auto;
+     }
+ }
     background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -157,4 +178,4 @@ body.album {
         margin: auto;
     }
 }
->>>>>>> assignment-6
+
