@@ -22,7 +22,7 @@ var albumMarconi = {
     year: '1909',
     albumArtUrl: 'assets/images/album_covers/20.png',
     songs: [
-    { title: 'Hello, Operator?', duration: '1:01},
+    { title: 'Hello, Operator?', duration: '1:01'},
      { title: 'Ring, ring, ring', duration: '5:01' },
          { title: 'Fits in your pocket', duration: '3:21'},
          { title: 'Can you hear me now?', duration: '3:14' },
