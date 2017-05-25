@@ -29,6 +29,21 @@ var albumMarconi = {
          { title: 'Wrong phone number', duration: '2:15'}
      ]
  };
+var albumBowie = {
+    title: 'Hero',
+    artist: 'Guglielmo Marconi',
+    label: 'EM',
+    year: '1909',
+    albumArtUrl: 'assets/images/album_covers/20.png',
+    songs: [
+    { title: 'Hello, Operator?', duration: '1:51'},
+     { title: 'Heroes', duration: '5:01' },
+         { title: 'Dancing with myself', duration: '4:21'},
+         { title: 'Can you hear me now?', duration: '3:14' },
+         { title: 'Man who sold the world', duration: '6:15'}
+     ]
+ };
+
  var createSongRow = function(songNumber, songName, songLength) {
      var template =
         '<tr class="album-view-song-item">'
@@ -47,7 +62,7 @@ var albumMarconi = {
      var albumReleaseInfo = document.getElementsByClassName('album-view-release-info')[0];
      var albumImage = document.getElementsByClassName('album-cover-art')[0];
      var albumSongList = document.getElementsByClassName('album-view-song-list')[0];
- 
+        
      // #2
      albumTitle.firstChild.nodeValue = album.title;
      albumArtist.firstChild.nodeValue = album.artist;
@@ -65,4 +80,17 @@ var albumMarconi = {
  
  window.onload = function() {
      setCurrentAlbum(albumPicasso);
+     
+     var albums = [albumPicasso, albumMarconi, albumBowie];
+    var index = 1;
+     albumImage.addEventListener("click", fucntion(event) {
+    
+        setCurrentAlbum(albums[index]);
+            index++; 
+            if (index == albums.length) {
+                    index = 0;
+            }
+ });
+                                 }
+ 
  };
