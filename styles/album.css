@@ -57,15 +57,13 @@
      width: 85%;
  }
  
- .song-item-duration {
-     width: 5%;
- }
  
  .song-item-duration {
      width: 5%;
  }
 
-.album-song-button {
+
+ .album-song-button {
      text-align: center;
      font-size: 14px;
      background-color: white;
@@ -129,7 +127,6 @@
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-}
 
 .album-cover-art {
     position: relative;
@@ -174,6 +171,7 @@
 
 .song-item-number {
     width: 5%;
+    min-width: 30px;
 }
 
 .song-item-title {
