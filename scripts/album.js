@@ -117,12 +117,11 @@ window.onload = function() {
          }
    });
     
-    for (var i = 0; i < songRows.length; i++) {
+     for (var i = 0; i < songRows.length; i++) {
          songRows[i].addEventListener('mouseleave', function(event) {
-          // Selects first child element
+             // selects first child element
              this.children[0].innerHTML = this.children[0].getAttribute('data-song-number');
-         });
-    }
+     });
     
     var albums = [albumPicasso, albumMarconi, albumBowie];
     var index = 1;
@@ -133,6 +132,11 @@ window.onload = function() {
             index = 0;
         }
     });
+     }
+};
+ }
+ 
+ 
 
       
      
