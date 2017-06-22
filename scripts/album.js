@@ -183,6 +183,10 @@ var findParentByClassName = function (element, targetClass) {
             return parent;
         parent = parent.parentElement;
     }
+    
+    if (parent == null) {
+        console.log("No parent found");
+    }
     return parent;
 }
 var getSongItem = function(element) {
