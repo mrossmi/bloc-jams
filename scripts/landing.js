@@ -7,6 +7,7 @@
          });
    };
      $.each($('.point'), revealPoint);
+ };
        
  $(window).load(function() {
     if ($(window).height() > 950) {
@@ -22,4 +23,4 @@
          }
      });
  });  
-         
+ 
